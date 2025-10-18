@@ -23,7 +23,7 @@ cd zshconf
 rm -rf ~/screenconf
 git clone git@github.com:AlbaroPereyra/screenconf.git
 mv screenconf/.screenrc ~;
-apt-get install jsoncpp ossp-uuid zlib openssl@1.1 c-ares boost sqlite mariadb hiredis;
+apt-get install clang jsoncpp ossp-uuid zlib openssl@1.1 c-ares boost sqlite mariadb hiredis;
 git clone https://github.com/an-tao/drogon;
 cd drogon;
 git submodule update --init;
